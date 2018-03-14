@@ -1,6 +1,9 @@
 #!/bin/bash
 echo "Hello Linux"
-while read ans
-do
-	echo $ans >>output.txt
-done
+cat > output.txt
+
+# echo "Hello Linux"
+# while read ans
+# do
+#	echo $ans >> output.txt
+# done
