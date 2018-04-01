@@ -1,0 +1,5 @@
+set arch i386:x86-64
+file ~/OSH/linux-4.13/vmlinux
+target remote:1234
+b start_kernel
+c
