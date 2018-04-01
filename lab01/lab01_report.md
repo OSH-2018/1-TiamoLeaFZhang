@@ -108,10 +108,11 @@ set arch i386:x86-64:intel
 target remote:1234
 ```
 
-使用：
+使用脚本：
 
 ```shell
-gdb
+./start.sh		#窗口1
+gdb				#窗口2
 (gdb)source gdb1
 (gdb)source gdb2
 ```
